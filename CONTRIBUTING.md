@@ -25,7 +25,7 @@ With that in place, you can fork the repository, clone it, and then run `npm i` 
 After cloning the repository and installing all the dependencies, there are several commands available for local development:
 
 -   `npm run lint` - Runs [ESLint](https://eslint.org) over all support file types
--	`npm run lint:prettier` - Runs [Prettier](https://prettier.io) over all supported file types
+-   `npm run lint:prettier` - Runs [Prettier](https://prettier.io) over all supported file types
 -   `npm run jest` - Runs [Jest](https://jestjs.io) tests in src directory
 -   `npm test` - Runs all of the above scripts together
 
