@@ -5,29 +5,29 @@ Please take a moment to read the entire contributing guide.
 
 This repository uses the [Feature Branch Workflow](https://atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow),
 meaning that development should take place in `feat/` branches, with the `main` branch kept in a stable state.
-When you submit pull requests, please make sure to fork from and submit back to `main`.
+When submitting pull requests, please make sure to fork from and submit back to `main`.
 
 Other processes and specifications that are in use in this repository are:
 
--   [Semantic versioning](https://semver.org)
--   [Conventional commits](https://conventionalcommits.org/en/v1.0.0) following the [@commitlint/config-conventional config](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional)
--   [Prettier](https://prettier.io) style guide
+- [Semantic versioning](https://semver.org)
+- [Conventional commits](https://conventionalcommits.org/en/v1.0.0) following the [@commitlint/config-conventional config](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional)
+- [Prettier](https://prettier.io) style guide
 
 ## Getting started
 
-This repository requires that you have a support version of [Node.js](https://nodejs.org) installed.
+This repository requires that a supported version of [Node.js](https://nodejs.org) is installed.
 Check the `engines.node` value in `./package.json` for the minimum supported version.
 
-With that in place, you can fork the repository, clone it, and then run `npm i` to install all dependencies.
+With that in place, fork the repository, clone it, and then run `npm i` to install all dependencies.
 
 ### Development workflow
 
 After cloning the repository and installing all the dependencies, there are several commands available for local development:
 
--   `npm run lint` - Runs [ESLint](https://eslint.org) over all support file types
--   `npm run lint:prettier` - Runs [Prettier](https://prettier.io) over all supported file types
--   `npm run jest` - Runs [Jest](https://jestjs.io) tests in src directory
--   `npm test` - Runs all of the above scripts together
+- `npm run lint` - Runs [ESLint](https://eslint.org) over all support file types
+- `npm run lint:prettier` - Runs [Prettier](https://prettier.io) over all supported file types
+- `npm run jest` - Runs tests in src directory
+- `npm test` - Runs all of the above scripts together
 
 ## Documentation style
 
@@ -37,10 +37,10 @@ Titles and headings should use sentence-style capitalisation, where only the fir
 
 ## Pull request checklist
 
-Before submitting a pull request back to the main repository, please make sure you have completed the following steps:
+Before submitting a pull request back to the main repository, please ensure the following steps have been taken:
 
 1. Pull request base branch is set to `main`. All pull requests should be forked from and merged back to `main`
-2. Run `npm test` to check the code adheres to the defined ESLint style and Prettier format, and that it passes the Jest tests
+2. Run `npm test` to check the code adheres to the defined formatting style, and that it passes tests
 3. Run `npm run lint:fix` to automatically fix any ESLint errors
 4. Run `npm run lint:prettier:fix` to automatically fix any Prettier errors
 5. Run `npm run lint:licenses` if adding or updating production dependencies to check they use permissive licenses
