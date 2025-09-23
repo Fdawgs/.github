@@ -18,7 +18,7 @@ Other processes and specifications that are in use in this repository are:
 This repository requires that a supported version of [Node.js](https://nodejs.org) is installed.
 Check the `engines.node` value in `./package.json` for the minimum supported version.
 
-With that in place, fork the repository, clone it, and then run `npm i` to install all dependencies.
+With that in place, fork the repository, clone it, and then run `npm i && npm run prepare` to install all dependencies.
 
 ### Development workflow
 
