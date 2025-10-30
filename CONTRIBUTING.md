@@ -18,13 +18,13 @@ Other processes and specifications that are in use in this repository are:
 This repository requires that a supported version of [Node.js](https://nodejs.org) is installed.
 Check the `engines.node` value in `./package.json` for the minimum supported version.
 
-With that in place, fork the repository, clone it, and then run `npm i && npm run prepare` to install all dependencies.
+With that in place, fork the repository, clone it, and then run `npm i` to install all dependencies.
 
 ### Development workflow
 
 After cloning the repository and installing all the dependencies, there are several commands available for local development:
 
-- `npm run lint` - Runs [ESLint](https://eslint.org) over all support file types
+- `npm run lint:eslint` - Runs [ESLint](https://eslint.org) over all support file types
 - `npm run lint:prettier` - Runs [Prettier](https://prettier.io) over all supported file types
 - `npm run test:unit` - Runs tests in src directory
 - `npm test` - Runs all of the above scripts together
@@ -40,9 +40,8 @@ Titles and headings should use sentence-style capitalisation, where only the fir
 Before submitting a pull request back to the main repository, please ensure the following steps have been taken:
 
 1. Pull request base branch is set to `main`. All pull requests should be forked from and merged back to `main`
-2. Run `npm test` to check the code adheres to the defined formatting style, and that it passes tests
-3. Run `npm run lint:fix` to automatically fix any ESLint errors
-4. Run `npm run lint:prettier:fix` to automatically fix any Prettier errors
-5. Run `npm run lint:licenses` if adding or updating production dependencies to check they use permissive licenses
+1. Run `npm test` to check the code adheres to the defined formatting style, and that it passes tests
+1. Run `npm run lint:fix` to automatically fix any ESLint and Prettier errors
+1. Run `npm run lint` to check that there are no linting errors
 
-Steps 2. and 5. are automatically run by a pre-commit hook added by [Husky](https://typicode.github.io/husky/#/).
+Step 4. is automatically ran by a pre-commit hook added by [Husky](https://typicode.github.io/husky/#/).
