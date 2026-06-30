@@ -68,7 +68,7 @@ body:
       label: Steps to Reproduce
       description: |
         List of steps, sample code, or a link to code or a project that reproduces the behaviour.
-        Make sure you place a stack trace inside a [code (```) block](https://docs.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks) to avoid linking unrelated issues.
+        Make sure you place a stack trace inside a [code (```) block](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks) to avoid linking unrelated issues.
     validations:
       required: true
 

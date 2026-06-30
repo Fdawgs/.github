@@ -19,7 +19,7 @@ body:
             I have searched existing feature requests to ensure it has not already been proposed
           required: true
         - label: |
-            I agree to follow the [Code of Conduct](https://github.com/fastify/.github/blob/main/CODE_OF_CONDUCT.md) that this project adheres to
+            I agree to follow the [Code of Conduct](https://github.com/Fdawgs/.github/blob/main/CODE_OF_CONDUCT.md) that this project adheres to
           required: true
 
   - type: textarea
